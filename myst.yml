@@ -17,6 +17,9 @@ project:
       children:
         - file: doc/foundations/capm.ipynb
           title: Consensus expected returns and the CAPM
+          children:
+            - file: doc/foundations/finecon101.ipynb
+              title: Financial economics 101
     
 site:
   template: book-theme
