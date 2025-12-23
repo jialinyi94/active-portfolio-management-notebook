@@ -20,6 +20,8 @@ project:
           children:
             - file: doc/foundations/mean_var.ipynb
               title: Financial economics 101
+            - file: exercises/ch2.ipynb
+              title: Application exercises
     
 site:
   template: book-theme
