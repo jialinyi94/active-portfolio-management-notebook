@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 9ad2d258-5ac3-43bd-9bb9-703fc3d6cfbb
+  title: Active Portfolio Management Notebook
+  description: A jupyter book for Active Portfolio Management by Richard C. Grinold and Ronald N. Kahn
+  keywords: [finance, investment, portfolio management, jupyter book, notebook]
+  authors: [Jialin Yi]
+  github: https://github.com/jialinyi94/active-portfolio-management-notebook
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
