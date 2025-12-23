@@ -1,0 +1,20 @@
+[project]
+name = "active-portfolio-management-notebook"
+version = "0.1.0"
+description = "A jupyter book for Active Portfolio Management by Richard C. Grinold and Ronald N. Kahn"
+authors = [
+    {name = "Jialin Yi",email = "jialinyi@sas.upenn.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter-book (>=2.0.0)",
+    "numpy (>=2.4.0,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "plotly (>=6.5.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
