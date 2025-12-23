@@ -15,7 +15,7 @@ project:
     - file: doc/foundations/overview.md
       title: Part I - Foundations
       children:
-        - file: doc/foundations/capm.md
+        - file: doc/foundations/capm.ipynb
           title: Consensus expected returns and the CAPM
     
 site:
