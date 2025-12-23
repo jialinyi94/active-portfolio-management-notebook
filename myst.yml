@@ -22,6 +22,8 @@ project:
               title: Financial economics 101
             - file: exercises/ch2.ipynb
               title: Application exercises
+        - file: doc/foundations/risk.ipynb
+          title: Risk
     
 site:
   template: book-theme
