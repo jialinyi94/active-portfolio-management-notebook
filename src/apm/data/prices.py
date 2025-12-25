@@ -43,10 +43,9 @@ def load_ng_data(
     symbol='NG=F',
     period='10y',
     interval='1d',
-    quote='Close',
 ):
     """Download price data for Natural Gas Futures"""
     data: pd.DataFrame = yf.download(
         symbol, period=period, interval=interval,
-    )[quote].dropna()
+    )
     return data
