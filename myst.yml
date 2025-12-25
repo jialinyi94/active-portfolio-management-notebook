@@ -24,6 +24,9 @@ project:
               title: Application exercises
         - file: doc/foundations/risk.ipynb
           title: Risk
+          children:
+            - file: doc/foundations/factor_risk.ipynb
+              title: Factor risk models
     
 site:
   template: book-theme
