@@ -47,5 +47,6 @@ def load_ng_data(
     """Download price data for Natural Gas Futures"""
     data: pd.DataFrame = yf.download(
         symbol, period=period, interval=interval,
-    )
+        group_by='ticker',
+    )[symbol]
     return data
