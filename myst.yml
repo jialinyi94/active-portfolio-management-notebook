@@ -27,6 +27,11 @@ project:
           children:
             - file: doc/foundations/factor_risk.ipynb
               title: Factor risk models
+    - file: user_guide/overview.md
+      title: Advanced Topics
+      children:
+        - file: user_guide/gas.ipynb
+          title: Trading Gas
     
 site:
   template: book-theme
