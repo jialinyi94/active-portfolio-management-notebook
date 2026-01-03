@@ -32,6 +32,8 @@ project:
       children:
         - file: user_guide/gas.ipynb
           title: Trading Gas
+        - file: user_guide/apm_1_rgm.ipynb
+          title: Active Portfolio Management 1 - Return Generative Model
     
 site:
   template: book-theme
